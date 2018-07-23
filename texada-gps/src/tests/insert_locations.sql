@@ -1,0 +1,17 @@
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (1,1,CONVERT_TZ('2016-10-12T12:00:00', '-05:00', '+0:00'),43.2583264,-81.8149807,500);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (2,1,CONVERT_TZ('2016-10-13T12:00:00', '-05:00', '+0:00'),42.559112,-79.286693,550);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (3,1,CONVERT_TZ('2016-10-14T12:00:00', '-05:00', '+0:00'),43.559112,-85.286693,600);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (4,1,CONVERT_TZ('2016-10-15T12:00:00', '-05:00', '+0:00'),42.3119735,-83.0941179,650);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (5,2,CONVERT_TZ('2016-10-12T12:00:00', '-05:00', '+0:00'),43.459112,-80.386693,500);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (6,2,CONVERT_TZ('2016-10-13T12:00:00', '-05:00', '+0:00'),42.459112,-79.386693,550);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (7,2,CONVERT_TZ('2016-10-14T12:00:00', '-05:00', '+0:00'),43.459112,-85.386693,450);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (8,2,CONVERT_TZ('2016-10-15T12:00:00', '-05:00', '+0:00'),44.459112,-81.386693,400);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (9,3,CONVERT_TZ('2016-10-15T12:00:00', '-05:00', '+0:00'),44.459112,-81.386693,500);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (10,3,CONVERT_TZ('2016-10-15T12:00:00', '-05:00', '+0:00'),45.459112,-82.386693,600);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (11,3,CONVERT_TZ('2016-10-15T12:00:00', '-05:00', '+0:00'),46.459112,-83.386693,700);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (12,3,CONVERT_TZ('2016-10-15T12:00:00', '-05:00', '+0:00'),47.459112,-84.386693,800);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (13,3,CONVERT_TZ('2016-10-15T12:00:00', '-05:00', '+0:00'),48.459112,-85.386693,900);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (14,4,CONVERT_TZ('2017-08-14T14:20:38', '-05:00', '+0:00'),43.7634618,-79.3688191,800);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (15,4,CONVERT_TZ('2017-08-04T16:20:38', '-05:00', '+0:00'),43.8001468,-79.2342365,400);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (16,4,CONVERT_TZ('2017-08-14T14:20:38', '-05:00', '+0:00'),44.51165,-80.1239422,550);
+INSERT INTO location(id,product_id,visit_date,longitude,latitude,elevation) VALUES (17,4,CONVERT_TZ('2017-08-14T14:20:38', '-05:00', '+0:00'),43.1501439,-79.0504945,300);
