@@ -1,0 +1,28 @@
+START TRANSACTION;
+
+DROP TABLE IF EXISTS location;
+DROP TABLE IF EXISTS product;
+DROP TABLE IF EXISTS user;
+
+CREATE TABLE user (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  username varchar(255) UNIQUE NOT NULL,
+  password varchar(255) NOT NULL
+);
+
+CREATE TABLE product (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  description varchar(255) NOT NULL UNIQUE
+);
+
+CREATE TABLE location (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  product_id INTEGER NOT NULL,
+  latitude FLOAT NOT NULL,
+  longitude FLOAT NOT NULL,
+  elevation INTEGER NOT NULL,
+  visit_date TIMESTAMP NOT NULL,
+  FOREIGN KEY (product_id) REFERENCES product (id)
+);
+
+COMMIT;
